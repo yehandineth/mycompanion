@@ -18,8 +18,8 @@
         </ul>
         <div class="search-container">
             <input type="text" class="search-input" placeholder="Enter a destination or keyword">
-            <button class="search-btn">Search</button>
-            <button class="clear-btn">Clear</button>
+            <button class="search-btn" id="btn1">Search</button>
+            <button class="clear-btn" id="btn2">Clear</button>
         </div>
     </nav>
     <div class="socials">
@@ -43,13 +43,16 @@
                 <span>Your next destination isn’t just a place—it’s a feeling.</span>
             </p>
         </div>
-        <div class="empty_1">
-            <p>This</p>
-        </div>
-        <div class="searchCondition">
-            <div id="result"></div>
-        </div>
     </div>
-    <script src="./health_analysis.js"></script>
+    <div class="searchCondition" id="searchCondition">
+        <ul id="result">
+            #Items Go here
+        </ul>
+    </div>
+    <div class="empty_1">
+            <p>This</p>
+    </div>
+        
+    <script src="./travel_recommendation.js"></script>
 </body>
 </html>
